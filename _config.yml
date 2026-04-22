@@ -7,7 +7,7 @@ url: "https://feiranzhao.github.io"
 baseurl: ""
 repository: "feiranzhao/feiranzhao.github.io"
 
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 plugins:
   - jekyll-include-cache
   - jekyll-feed
