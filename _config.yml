@@ -3,9 +3,9 @@ title: "Feiran Zhao"
 title_separator: "-"
 name: "Feiran Zhao"
 description: "Personal academic website of Feiran Zhao at ETH Zurich"
-url: "https://feiran-zhao-eth.github.io"
+url: "https://feiranzhao.github.io"
 baseurl: ""
-repository: "Feiran-Zhao-eth/Feiran-Zhao-eth.github.io"
+repository: "feiranzhao/feiranzhao.github.io"
 
 theme: "minimal-mistakes-jekyll"
 plugins:
