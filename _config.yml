@@ -1,0 +1,85 @@
+locale: "en-US"
+title: "Feiran Zhao"
+title_separator: "-"
+name: "Feiran Zhao"
+description: "Personal academic website of Feiran Zhao at ETH Zurich"
+url: "https://feiran-zhao-eth.github.io"
+baseurl: ""
+repository: "Feiran-Zhao-eth/Feiran-Zhao-eth.github.io"
+
+theme: "minimal-mistakes-jekyll"
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+author:
+  name: "Feiran Zhao"
+  avatar: ""
+  bio: "Researcher at ETH Zurich working on data-driven control, adaptive control, and reinforcement learning."
+  location: "Zurich, Switzerland"
+  employer: "ETH Zurich"
+  email: ""
+  uri: ""
+  googlescholar: "https://scholar.google.com/citations?user=xUI18FkAAAAJ&hl=zh-CN"
+  orcid: "https://orcid.org/my-orcid?orcid=0000-0003-3142-2903"
+  github: "Feiran-Zhao-eth"
+  linkedin: ""
+
+footer:
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=xUI18FkAAAAJ&hl=zh-CN"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/my-orcid?orcid=0000-0003-3142-2903"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/Feiran-Zhao-eth"
+
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "teaching"
+    values:
+      layout: single
+      author_profile: true
+
+include:
+  - _pages
+  - files
+
+markdown: kramdown
+permalink: /:categories/:title/
+timezone: Europe/Zurich
