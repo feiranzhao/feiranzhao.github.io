@@ -21,20 +21,31 @@
 }
 
 .plain-list--compact p {
-  font-size: 0.92rem;
-  line-height: 1.55;
-  margin-bottom: 0.95rem;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  margin-bottom: 0.55rem;
   max-width: 100%;
 }
 
-.plain-list--compact strong {
-  font-size: 0.98rem;
+.plain-list--compact .plain-list__body {
+  display: inline;
+  font-weight: 400;
 }
 
 .plain-list__year {
   display: inline-block;
-  min-width: 4rem;
-  margin-right: 0.35rem;
-  font-weight: 600;
+  min-width: 3.6rem;
+  margin-right: 0.2rem;
+  font-weight: 500;
   color: #4b5563;
+}
+
+.layout--single.wide .page {
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0;
+}
+
+.layout--single.wide .page__inner-wrap {
+  max-width: 1200px;
 }

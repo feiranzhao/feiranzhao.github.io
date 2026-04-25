@@ -2,15 +2,14 @@
 title: "Talks"
 permalink: /talks/
 author_profile: false
+classes: wide
 ---
-
-These talks are listed as plain text without hyperlinks.
 
 ## Invited Talks
 
 <div class="plain-list plain-list--compact">
 {% for item in site.data.cv.talks.invited %}
-  <p><span class="plain-list__year">{{ item.year }}</span> <strong>{{ item.title }}</strong><br>{{ item.venue }}{% if item.location %}, {{ item.location }}{% endif %}{% if item.note %}<br>{{ item.note }}{% endif %}</p>
+  <p><span class="plain-list__year">{{ item.year }}</span><span class="plain-list__body">"{{ item.title }}," {{ item.venue }}{% if item.location %}, {{ item.location }}{% endif %}{% if item.note %}. {{ item.note }}{% endif %}</span></p>
 {% endfor %}
 </div>
 
@@ -18,6 +17,6 @@ These talks are listed as plain text without hyperlinks.
 
 <div class="plain-list plain-list--compact">
 {% for item in site.data.cv.talks.conference %}
-  <p><span class="plain-list__year">{{ item.year }}</span> <strong>{{ item.title }}</strong><br>{{ item.venue }}{% if item.location %}, {{ item.location }}{% endif %}{% if item.note %}<br>{{ item.note }}{% endif %}</p>
+  <p><span class="plain-list__year">{{ item.year }}</span><span class="plain-list__body">"{{ item.title }}," {{ item.venue }}{% if item.location %}, {{ item.location }}{% endif %}{% if item.note %}. {{ item.note }}{% endif %}</span></p>
 {% endfor %}
 </div>
