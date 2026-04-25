@@ -16,3 +16,14 @@
   border-left: 4px solid #2563eb;
 }
 
+.plain-list p {
+  margin-bottom: 1.25rem;
+}
+
+.plain-list__year {
+  display: inline-block;
+  min-width: 4rem;
+  margin-right: 0.35rem;
+  font-weight: 600;
+  color: #4b5563;
+}

@@ -1,12 +1,23 @@
 ---
 title: "Talks"
 permalink: /talks/
-layout: archive
 author_profile: true
 ---
 
-{% assign talks = site.talks | sort: "date" | reverse %}
-{% for post in talks %}
-  {% include archive-single.html %}
-{% endfor %}
+These talks are listed as plain text without hyperlinks.
 
+## Invited Talks
+
+<div class="plain-list">
+{% for item in site.data.cv.talks.invited %}
+  <p><span class="plain-list__year">{{ item.year }}</span> <strong>{{ item.title }}</strong><br>{{ item.venue }}{% if item.location %}, {{ item.location }}{% endif %}{% if item.note %}<br>{{ item.note }}{% endif %}</p>
+{% endfor %}
+</div>
+
+## Conference Presentations
+
+<div class="plain-list">
+{% for item in site.data.cv.talks.conference %}
+  <p><span class="plain-list__year">{{ item.year }}</span> <strong>{{ item.title }}</strong><br>{{ item.venue }}{% if item.location %}, {{ item.location }}{% endif %}{% if item.note %}<br>{{ item.note }}{% endif %}</p>
+{% endfor %}
+</div>

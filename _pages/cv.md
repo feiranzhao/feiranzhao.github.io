@@ -4,33 +4,70 @@ permalink: /cv/
 author_profile: true
 ---
 
+{% assign profile = site.data.cv.profile %}
+
+## Research Appointment
+
+- {{ profile.current_position.period }}: **{{ profile.current_position.role }}**, {{ profile.current_position.institution }}, {{ profile.current_position.location }}. Advisor: {{ profile.current_position.advisor }}.
+
 ## Education
 
-- Ph.D., Field, University, Year
-- M.Sc., Field, University, Year
-- B.Sc., Field, University, Year
+{% for item in site.data.cv.education %}
+- {{ item.period }}: **{{ item.degree }}**, {{ item.institution }}, {{ item.location }}{% if item.advisor %}. Advisor: {{ item.advisor }}{% endif %}.
+{% endfor %}
 
-## Academic Positions
+## Research Interests
 
-- 2025-present: Postdoctoral Researcher, Institution
-- 2021-2025: Doctoral Researcher, Institution
-
-## Selected Publications
-
-- Author, **Paper Title**, Venue, Year.
-- Author, **Paper Title**, Venue, Year.
+- {{ profile.research_summary }}
 
 ## Awards
 
-- Award name, Year
-- Fellowship / scholarship, Year
+{% for item in site.data.cv.awards %}
+- {{ item.year }}: **{{ item.title }}**, {{ item.organization }}{% if item.note %} ({{ item.note }}){% endif %}.
+{% endfor %}
 
 ## Service
 
-- Reviewer: Conference / Journal names
-- Teaching assistant / organizer roles
+### Organization
 
-## Download
+{% for item in site.data.cv.service.organization %}
+- {{ item.year }}: {{ item.item }}
+{% endfor %}
 
-If you want, you can later upload a PDF CV to [files/cv.pdf](/files/cv.pdf).
+### Reviewing
 
+{% for item in site.data.cv.service.reviewing %}
+- {{ item }}
+{% endfor %}
+
+## Teaching Experience
+
+{% for item in site.data.cv.teaching.teaching_experience %}
+- {{ item.year }}: **{{ item.role }}**, {{ item.course }}, {{ item.institution }}. {{ item.details }}
+{% endfor %}
+
+## Supervision
+
+{% for item in site.data.cv.teaching.supervision %}
+- {{ item.year }}: **{{ item.student }}**, {{ item.program }}. "{{ item.title }}." {{ item.details }}
+{% endfor %}
+
+## Selected Talks and Presentations
+
+### Invited Talks
+
+{% for item in site.data.cv.talks.invited %}
+- {{ item.year }}: "{{ item.title }}," {{ item.venue }}, {{ item.location }}{% if item.note %}. {{ item.note }}{% endif %}.
+{% endfor %}
+
+### Conference Presentations
+
+{% for item in site.data.cv.talks.conference %}
+- {{ item.year }}: "{{ item.title }}," {{ item.venue }}{% if item.location %}, {{ item.location }}{% endif %}{% if item.note %}. {{ item.note }}{% endif %}.
+{% endfor %}
+
+## Referees
+
+{% for item in site.data.cv.referees %}
+- **{{ item.name }}**, {{ item.affiliation }}, {{ item.email }}
+{% endfor %}

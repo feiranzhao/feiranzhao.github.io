@@ -1,11 +1,14 @@
 ---
-title: "Sample Course or Teaching Activity"
+title: "Computational Control"
 collection: teaching
-permalink: /teaching/sample-course
-date: 2025-09-01
-venue: "University Name"
-excerpt: "Course title, role, and semester."
+permalink: /teaching/computational-control
+date: 2026-01-01
+venue: "ETH Zurich"
+excerpt: "Co-Lecturer and Head Teaching Assistant for Computational Control."
 ---
 
-Add course details, syllabus links, notes, or teaching materials here.
+**Role:** Co-Lecturer and Head Teaching Assistant
 
+**Institution:** ETH Zurich
+
+**Summary:** Designed and delivered a lecture on data-driven LQR, integrated research into teaching, led the tutorial component, supervised teaching assistants, and delivered four tutorial sessions.

@@ -16,11 +16,11 @@ plugins:
 
 author:
   name: "Feiran Zhao"
-  avatar: ""
-  bio: "Researcher at ETH Zurich working on data-driven control, adaptive control, and reinforcement learning."
+  avatar: "/images/feiran.jpg"
+  bio: "Postdoctoral researcher at ETH Zurich working on data-driven control, adaptive control, and reinforcement learning."
   location: "Zurich, Switzerland"
   employer: "ETH Zurich"
-  email: ""
+  email: "zhaofe@control.ee.ethz.ch"
   uri: ""
   googlescholar: "https://scholar.google.com/citations?user=xUI18FkAAAAJ&hl=zh-CN"
   orcid: "https://orcid.org/my-orcid?orcid=0000-0003-3142-2903"
