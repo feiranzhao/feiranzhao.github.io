@@ -20,6 +20,17 @@
   margin-bottom: 1.25rem;
 }
 
+.plain-list--compact p {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin-bottom: 0.95rem;
+  max-width: 100%;
+}
+
+.plain-list--compact strong {
+  font-size: 0.98rem;
+}
+
 .plain-list__year {
   display: inline-block;
   min-width: 4rem;

@@ -39,3 +39,7 @@ My research focuses on data-driven control, adaptive control, reinforcement lear
 - Google Scholar: <https://scholar.google.com/citations?user=xUI18FkAAAAJ&hl=zh-CN>
 - ORCID: <https://orcid.org/my-orcid?orcid=0000-0003-3142-2903>
 - GitHub: <https://github.com/Feiran-Zhao-eth>
+
+## CV
+
+[Curriculum Vitae](/cv/)
