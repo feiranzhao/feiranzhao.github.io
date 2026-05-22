@@ -8,6 +8,8 @@ author_profile: true
 
 Hi there! I am currently a postdoctoral researcher at the Automatic Control Laboratory (IfA), ETH Zurich, Switzerland, under the supervision of **[Prof. Florian Dorfler](https://dorfler.ethz.ch/)**. Before that, I received his Ph.D. degree in Control Science and Engineering from the Department of Automation, Tsinghua University, Beijing, China, in 2024, supervised by **[Prof. Keyou You (游科友)](https://www.au.tsinghua.edu.cn/en/info/1075/3331.htm)**. I was also a visiting scientist at the Automatic Control Laboratory (IfA), ETH Zurich, from December 2022 to May 2023. I received the B.Eng. degree in Automation from Harbin Institute of Technology, Harbin, China, in 2018. His current research focuses on reinforcement learning, data-driven control, adaptive control, and their intersections.
 
+**Collaborations:** I warmly welcome collaborations in many forms, including joint research papers, experimental collaborations, co-organized workshops or conference sessions, and the co-supervision of Master's theses. If you are interested, please do not hesitate to contact me.
+
 ## Latest News
 
 <div class="latest-news" markdown="1">
