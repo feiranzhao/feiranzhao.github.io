@@ -4,20 +4,18 @@ permalink: /teaching/
 author_profile: true
 ---
 
-This page uses plain text entries instead of clickable archive cards.
-
 ## Teaching Experience
 
-<div class="plain-list">
+<div class="plain-list plain-list--compact">
 {% for item in site.data.cv.teaching.teaching_experience %}
-  <p><span class="plain-list__year">{{ item.year }}</span> <strong>{{ item.role }}</strong><br>{{ item.course }}, {{ item.institution }}</p>
+  <p><span class="plain-list__year">{{ item.year }}</span><span class="plain-list__body"><strong>{{ item.role }}</strong>, {% if item.url %}<a href="{{ item.url }}">{{ item.course }}</a>{% else %}{{ item.course }}{% endif %}, {{ item.institution }}{% if item.details %}. {{ item.details }}{% endif %}</span></p>
 {% endfor %}
 </div>
 
 ## Supervision
 
-<div class="plain-list">
+<div class="plain-list plain-list--compact">
 {% for item in site.data.cv.teaching.supervision %}
-  <p><span class="plain-list__year">{{ item.year }}</span> <strong>{{ item.student }}</strong><br>{{ item.program }}<br>"{{ item.title }}"</p>
+  <p><span class="plain-list__year">{{ item.year }}</span><span class="plain-list__body"><strong>{{ item.student }}</strong>, {{ item.program }}. "{{ item.title }}"{% if item.details %}. {{ item.details }}{% endif %}</span></p>
 {% endfor %}
 </div>
