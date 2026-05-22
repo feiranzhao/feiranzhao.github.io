@@ -277,6 +277,7 @@ publications:
       url: "https://arxiv.org/abs/2205.14335"
       authors: "Feiran Zhao, Xingyun Fu, Keyou You"
       venue: "IEEE Transactions on Automatic Control"
+      venue_note: "(full paper)"
       details: "70(3):1455-1466."
     - year: "2025"
       title: "Regularization for Covariance Parameterization of Direct Data-Driven LQR Control"
@@ -295,6 +296,7 @@ publications:
       url: "https://arxiv.org/abs/2104.04901"
       authors: "Feiran Zhao, Keyou You, Tamer Basar"
       venue: "IEEE Transactions on Automatic Control"
+      venue_note: "(full paper)"
       details: "68(5):2934-2949."
     - year: "2023"
       title: "Minimax Q-learning control for linear systems using the Wasserstein metric"
@@ -387,6 +389,7 @@ publications:
       url: "https://arxiv.org/abs/2505.03706"
       authors: "Feiran Zhao, Alessandro Chiuso, Florian Dorfler"
       venue: "IEEE Transactions on Automatic Control"
+      venue_note: "(full paper)"
       details: "Submitted."
 
 referees:
