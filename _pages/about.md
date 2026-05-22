@@ -13,7 +13,7 @@ Hi there! I am currently a postdoctoral researcher at the Automatic Control Labo
 ## Latest News
 
 <div class="latest-news" markdown="1">
-{% for item in site.data.cv.news limit:12 %}
+{% for item in site.data.cv.news %}
 - {{ item.date }}: {% if item.url and item.link_text %}{% capture news_link %}<a href="{{ item.url }}">{{ item.link_text }}</a>{% endcapture %}{{ item.item | replace_first: item.link_text, news_link }}{% elsif item.url %}<a href="{{ item.url }}">{{ item.item }}</a>{% else %}{{ item.item }}{% endif %}
 {% endfor %}
 </div>
