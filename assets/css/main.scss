@@ -38,6 +38,10 @@
   margin-bottom: 0.55rem;
 }
 
+.no-page-title .page__title {
+  display: none;
+}
+
 .archive__item-title {
   margin-bottom: 0.2rem;
 }
@@ -57,6 +61,7 @@
   grid-template-columns: minmax(0, 1fr);
   gap: 1.1rem;
   max-width: 760px;
+  margin-bottom: 1rem;
 }
 
 .presentation-card {
@@ -83,6 +88,10 @@
   font-size: 1.02rem;
   font-weight: 600;
   color: #1f2937;
+}
+
+.presentation-viewer {
+  max-width: 100%;
 }
 
 .presentation-card__meta {
