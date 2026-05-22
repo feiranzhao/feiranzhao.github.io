@@ -6,3 +6,5 @@ _site/
 vendor/
 *.log
 *.err.log
+files/*.pptx
+files/~$*
