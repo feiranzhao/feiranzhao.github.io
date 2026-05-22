@@ -110,8 +110,8 @@
 
 .research-theme {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(180px, 260px);
-  gap: 1.2rem;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+  gap: 1.45rem;
   align-items: center;
   padding: 0.85rem 0;
   border-bottom: 1px solid #e5e7eb;
@@ -132,7 +132,7 @@
 .research-theme__image img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
+  max-height: 250px;
   object-fit: contain;
   border: 1px solid #d1d5db;
   background: #fff;
