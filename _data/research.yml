@@ -4,7 +4,7 @@ themes:
   - id: "adaptive-rl"
     title: "Closed-Loop Adaptive Reinforcement Learning"
     url: "/research/adaptive-rl/"
-    image: "/images/research/adaptive-rl.png"
+    image: "/images/research/deepo.png"
     description: "I develop policy-gradient and adaptive-learning methods that update controllers directly inside feedback loops while preserving stability, robustness, and performance guarantees for dynamical systems."
     publications:
       - "Data-Enabled Policy Optimization for Direct Adaptive Learning of the LQR"
@@ -22,7 +22,7 @@ themes:
   - id: "data-driven-control"
     title: "Data-Driven Control and Online Optimization"
     url: "/research/data-driven-control/"
-    image: "/images/research/data-driven-control.png"
+    image: "/images/research/ddc.png"
     description: "I study how finite data, behavioral representations, regularization, and online optimization can be turned into reliable controllers without first building a full parametric model."
     publications:
       - "A Bayesian Perspective on the Data-Driven LQR"
@@ -34,9 +34,9 @@ themes:
       - "Data-driven control of unknown linear systems via quantized feedback"
 
   - id: "cyber-physical"
-    title: "Learning Control for Cyber-Physical Systems"
+    title: "Applications to Cyber-Physical Systems"
     url: "/research/cyber-physical/"
-    image: "/images/research/cyber-physical.png"
+    image: "/images/research/bike.png"
     description: "I translate learning and data-driven control ideas to embodied and safety-critical systems, including autonomous mobility, energy networks, power electronics, aerospace systems, and transportation."
     publications:
       - "An adaptive data-enabled policy optimization approach for autonomous bicycle control"

@@ -1,5 +1,5 @@
 ---
-title: "Learning Control for Cyber-Physical Systems"
+title: "Applications to Cyber-Physical Systems"
 permalink: /research/cyber-physical/
 author_profile: true
 ---
