@@ -272,7 +272,7 @@ publications:
       details: "149:110850."
     - year: "2021"
       title: "Suspension regulation of medium-low-speed maglev trains via deep reinforcement learning"
-      url: "https://doi.org/10.1109/TAI.2021.3070895"
+      url: "https://doi.org/10.1109/TAI.2021.3097313"
       authors: "Feiran Zhao, Keyou You, Shiji Song, Wenyue Zhang, Laisheng Tong"
       venue: "IEEE Transactions on Artificial Intelligence"
       details: "2(4):341-351."
