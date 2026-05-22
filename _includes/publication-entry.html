@@ -1,0 +1,13 @@
+{% assign authors = include.item.authors | replace: "Feiran Zhao", "<strong>Feiran Zhao</strong>" %}
+{% if include.item.details %}
+  {% assign details_size = include.item.details | size %}
+  {% assign details_last_index = details_size | minus: 1 %}
+  {% assign details_last_char = include.item.details | slice: details_last_index, 1 %}
+  {% if details_last_char == "." %}
+    {% assign details_limit = details_size | minus: 1 %}
+    {% assign details_text = include.item.details | slice: 0, details_limit %}
+  {% else %}
+    {% assign details_text = include.item.details %}
+  {% endif %}
+{% endif %}
+{{ authors }}. "{% if include.item.url %}<a href="{{ include.item.url }}">{{ include.item.title }}</a>{% else %}{{ include.item.title }}{% endif %}." <em>{{ include.item.venue }}</em>{% if include.item.venue_note %} {{ include.item.venue_note }}{% endif %}{% if include.item.details %}, {{ details_text }}{% endif %}, {{ include.item.year }}.

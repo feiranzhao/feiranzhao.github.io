@@ -3,7 +3,7 @@
 {% for publication_title in include.publications %}
   {% assign matched = all_publications | where: "title", publication_title | first %}
   {% if matched %}
-    <p><span class="plain-list__year">{{ matched.year }}</span><span class="plain-list__body">{{ matched.authors }}. "{% if matched.url %}<a href="{{ matched.url }}">{{ matched.title }}</a>{% else %}{{ matched.title }}{% endif %}." {{ matched.venue }}{% if matched.details %}, {{ matched.details }}{% endif %}</span></p>
+    <p>{% include publication-entry.html item=matched %}</p>
   {% endif %}
 {% endfor %}
 </div>

@@ -220,6 +220,7 @@ publications:
       url: "https://arxiv.org/abs/2401.14871"
       authors: "Feiran Zhao, Florian Dorfler, Alessandro Chiuso, Keyou You"
       venue: "IEEE Transactions on Automatic Control"
+      venue_note: "(full paper)"
       details: "70(11):7217-7232."
     - year: "2025"
       title: "Policy Gradient Methods for the Cost-Constrained LQR: Strong Duality and Global Convergence"
